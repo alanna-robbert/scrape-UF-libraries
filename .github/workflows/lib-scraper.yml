@@ -2,8 +2,8 @@ name: Library Occupancy Scraper
 
 on:
   schedule:
-    - cron: '0 13-23 * * *'  # 9 AM - 7 PM ET (normal library hours)
-    - cron: '0 0-6 * * *'    # midnight - 2 AM ET
+    - cron: '10 13-23 * * *'  # 9 AM - 7 PM ET (normal library hours)
+    - cron: '10 0-6 * * *'    # midnight - 2 AM ET
   workflow_dispatch:
 
 jobs:
