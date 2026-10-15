@@ -1,10 +1,11 @@
 
-
-.
+```text
+scraper-UF-libraries/
 ├── LICENSE
 ├── README.md
-├── data
+├── data/
 │   └── library_occupancy.csv
 ├── library_occupancy.csv
-└── scraper
+└── scraper/
     └── scraper.py
+```
